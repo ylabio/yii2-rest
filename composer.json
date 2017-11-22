@@ -1,0 +1,27 @@
+{
+  "name": "ylab/rest",
+  "description": "Extended Yii2 REST API",
+  "type": "yii2-extension",
+  "keywords": [
+    "rest",
+    "ylab",
+    "yii",
+    "yii2",
+    "yii 2",
+    "extension"
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "league/factory-muffin": "~3.0",
+    "league/factory-muffin-faker": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ylab\\rest\\": "src"
+    }
+  }
+}
